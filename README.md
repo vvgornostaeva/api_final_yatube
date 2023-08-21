@@ -1,4 +1,4 @@
-## API_FINAL_YATUBE:
+## API_FINAL_YATUBE
 
 Проект представляет из себя API для социальной сети Yatube.
 
@@ -64,7 +64,7 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/yandex-praktikum/api_final_yatube.git
+git clone git@github.com:vvgornostaeva/api_final_yatube.git
 ```
 
 ```
@@ -74,11 +74,11 @@ cd api_final_yatube
 Cоздать и активировать виртуальное окружение:
 
 ```
-python3 -m venv env
+python -m venv env
 ```
 
 ```
-source env/bin/activate
+source env/Scripts/activate
 ```
 
 Установить зависимости из файла requirements.txt:
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 Выполнить миграции:
 
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 
 Запустить проект:
