@@ -7,13 +7,12 @@
 
 - `pi/v1/token/ `- POST: получение JWT-токена;
 - `/api/v1/token/refresh/ `- POST: обновление JWT-токена;
-- `/api/v1/jwt/verify/ `- POST: проверка JWT-токена
+- `/api/v1/jwt/verify/ `- POST: проверка JWT-токена;
 - `/api/v1/posts/` - GET: получение всех записей, POST: добавление новой записи;
 - `/api/v1/posts/{id}/ `- GET: получение записи, PUT: обновление записи, PATCH: частичное обновление записи, DELETE: удаление записи;
 - `/api/v1/follow/ `- GET: получение списка всех своих подписок, POST: создание новой подписки;
-- `/api/v1/group/ `- GET: получение списка всех групп, POST: создание новой группы.
-
-  и другие ...
+- `/api/v1/group/ `- GET: получение списка всех групп, POST: создание новой группы
+ и другие ...
 
 ## Примеры запросов 
 
@@ -84,7 +83,7 @@ source env/Scripts/activate
 Установить зависимости из файла requirements.txt:
 
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 
 ```
@@ -100,5 +99,5 @@ python manage.py migrate
 Запустить проект:
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
